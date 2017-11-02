@@ -1,7 +1,3 @@
 # clojure-mail-client
 
-A Clojure app to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A simple Clojure app to connect to an IMAP mail server and print some emails
