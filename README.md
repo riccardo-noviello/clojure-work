@@ -1,2 +1,2 @@
-# clojure-fun
-a set of simple clojure projects
+# clojure-work
+This repository is for simple Clojure exercises / play around work
