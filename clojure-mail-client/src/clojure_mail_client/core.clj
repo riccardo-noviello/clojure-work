@@ -13,13 +13,15 @@
   []
   (println "ready")
   
+  ; prints the folders in my gmail account
   (println (mail/folders gmail))
     
+  ; prints the last 3 messages from the INBOX folder
   (println (take 3 (mail/messages gmail "INBOX")))
   
+  ; prints the last 5 messages from the flag UNIVERSIDAD
   (take 5 (mail/messages gmail "UNIVERSIDAD" Flags$Flag/SEEN false))
   
-  ;(mail/dump (take 3 (mail/messages gmail "INBOX")))
-  
+  ; json of the last 3 messages from the INBOX folder
   (mail/json (take 3 (mail/messages gmail "INBOX")))
   )
